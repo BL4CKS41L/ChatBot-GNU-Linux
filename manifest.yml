@@ -1,0 +1,10 @@
+applications:
+  - path: .
+    name: BOT-LINUX01
+    environment_json: {}
+    memory: 256M
+    instances: 1
+    disk_quota: 1024M
+    services:
+      - chatbot-GNU/Linux
+      - BOT-LINUX01-cloudantNoSQLDB
